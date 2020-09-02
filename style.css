@@ -1,0 +1,183 @@
+body {
+  background-color: black;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 6px 0;
+  margin: 0;
+}
+
+header {
+margin-top: 10px
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.rogin {
+  float: right;
+  margin-left: 20px;
+  color: white;
+}
+
+.heading {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: fantasy;
+  color: white;
+}
+
+.heading-sentence {
+  font-size: 18px;
+  color: white;
+}
+
+.navbar {
+  height: 20px;
+  width: 930px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.contents {
+  /* 子要素に合わせて大きさを変動させるためにheightを削除 */
+  width: 960px;
+  margin: 10px auto;
+}
+
+.left-content {
+  height: 820px;
+  width: 640px;
+  background-color: #ffffff;
+  float: left;
+}
+.infomation {
+  margin-left: 30px;
+  color: brown;
+  padding-left: 140px;
+}
+.introduce {
+  margin-left: 30px;
+}
+.right-content {
+  height: 820px;
+  width: 320px;
+  background-color: #f9f9f9;
+  float: left;
+  text-align: center;
+}
+
+ul li::before {
+  font-family: "Font Awesome 5 Brands";
+  margin-right: 5px;
+}
+
+.post-icon {
+  margin-left: 10px;
+}
+.twitter::before {
+  content: "\f099";
+  color: #00acee;
+}
+.facebook::before {
+  content: "\f39e";
+  color: #3b5998;
+}
+.instagram::before {
+  content: "\f16d";
+  color: #e1306c;
+}
+.fa-youtube {
+  color: #f00;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.youtube {
+  margin-top: 15px;
+}
+.name {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+.text {
+  width: 200px;
+  height: 45px;
+  margin-bottom: 5px;
+}
+
+.lady {
+  margin-bottom: 10px;
+}
+
+.chice {
+  width: 200px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.reservation-btn {
+  margin-top: 10px;
+  width: 200;
+  height: 45px;
+  border-radius: unset;
+  background: dodgerblue;
+  color: white;
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+td {
+  margin: 0;
+  padding-left: 10px;
+  line-height: 30px;
+}
+
+.teacher-image {
+  height: 100px;
+  width: 180px;
+}
+
+.ny-image {
+  height: 120px;
+  width: 100%;
+}
+
+.stylist-name {
+  font-size: 16px;
+  text-align: center;
+}
